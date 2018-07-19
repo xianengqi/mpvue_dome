@@ -1,0 +1,9 @@
+<import src="BookInfo$1acf2cf2" /><import src="CommentList$01456d06" /><template name="detail$2c702a3b"><view class="_div data-v-8f87b284"><template data="{{...$root[$kk+'0'], $root}}" is="BookInfo$1acf2cf2"></template> <template data="{{...$root[$kk+'1'], $root}}" is="CommentList$01456d06"></template> <view class="_div data-v-8f87b284 comment" wx:if="{{showAdd}}"><textarea value="{{comment}}" bindinput="handleProxy" class="_textarea data-v-8f87b284 textarea" maxlength="{{100}}" placeholder="请输入图书短评" data-eventid="{{'0'}}" data-comkey="{{$k}}" /> <view class="_div data-v-8f87b284 location">
+      地理位置：
+      <switch color="#EA5A49" checked="{{location}}" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_switch data-v-8f87b284" /> <label class="_span data-v-8f87b284 text-primary">{{location}}</label></view> <view class="_div data-v-8f87b284 phone">
+      手机型号： 
+      <switch color="#EA5A49" checked="{{phone}}" bindchange="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_switch data-v-8f87b284" /> <label class="_span data-v-8f87b284 text-primary">{{phone}}</label></view> <button class="_button data-v-8f87b284 btn" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+      评论
+    </button></view><view wx:else class="_div data-v-8f87b284 text-footer">
+    未登录或者已经评论过啦
+  </view> <button open-type="share" class="_button data-v-8f87b284 btn">转发给好友</button></view></template>

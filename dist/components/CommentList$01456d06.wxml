@@ -1,0 +1,13 @@
+<template name="CommentList$01456d06"><view class="_div data-v-4e7b5a1a comment-list"><view class="_div data-v-4e7b5a1a page-title" wx:if="{{comments.length}}">
+    评论
+  </view> <view class="_div data-v-4e7b5a1a comment" wx:key="comment.id" key="{{comment.id}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{comments}}" wx:for-index="index" wx:for-item="comment"><view class="_div data-v-4e7b5a1a user"><view class="_div data-v-4e7b5a1a inline"><image src="{{comment.image}}" class="_img data-v-4e7b5a1a avatar" mode="aspectFit"></image>
+        {{comment.title}}
+      </view> <view class="_div data-v-4e7b5a1a right">
+        {{comment.location||'未知地点'}}
+        <label class="_span data-v-4e7b5a1a text-primary">
+          --
+        </label>
+        {{comment.phone||'未知型号'}}
+      </view></view> <view class="_div data-v-4e7b5a1a content">
+      {{comment.comment}}
+    </view></view></view></template>

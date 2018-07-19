@@ -1,0 +1,12 @@
+<import src="Rate$0c88c2a0" /><template name="Card$3fdb9640"><navigator url="{{detailUrl}}" class="_a data-v-86022a3a"><view class="_div data-v-86022a3a book-card"><view class="_div data-v-86022a3a thumb" catchtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><image src="{{book.image}}" class="_img data-v-86022a3a img" mode="aspectFit"></image></view> <view class="_div data-v-86022a3a detail"><view class="_div data-v-86022a3a row text-primary"><view class="_div data-v-86022a3a right">
+        {{book.rate}} <template data="{{...$root[$kk+'0'], $root}}" is="Rate$0c88c2a0"></template></view> <view class="_div data-v-86022a3a left">
+        {{book.title}}
+      </view></view> <view class="_div data-v-86022a3a row"><view class="_div data-v-86022a3a right text-primary">
+        浏览量:{{book.count}}
+      </view> <view class="_div data-v-86022a3a left">         
+        {{book.author}}
+      </view></view> <view class="_div data-v-86022a3a row"><view class="_div data-v-86022a3a right">
+        {{book.user_info.nickName}}
+      </view> <view class="_div data-v-86022a3a left">         
+        {{book.publisher}}
+      </view></view></view></view></navigator></template>

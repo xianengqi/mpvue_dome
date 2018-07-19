@@ -1,0 +1,15 @@
+<import src="Rate$0c88c2a0" /><template name="BookInfo$1acf2cf2"><view class="_div data-v-7e64660a bookinfo"><view class="_div data-v-7e64660a thumb"><image class="_img data-v-7e64660a back" src="{{info.image}}" mode="aspectFill"></image> <image class="_img data-v-7e64660a img" src="{{info.image}}" mode="aspectFit"></image> <view class="_div data-v-7e64660a info"><view class="_div data-v-7e64660a title">
+           {{info.title}}
+         </view> <view class="_div data-v-7e64660a author">
+           {{info.author}}
+         </view></view></view> <view class="_div data-v-7e64660a detail"><image src="{{userinfo.image}}" class="_img data-v-7e64660a avatar" mode="aspectFit"></image>
+    {{userinfo.name}}
+    <view class="_div data-v-7e64660a right text-primary">
+      {{info.rate}}分
+      <template data="{{...$root[$kk+'0'], $root}}" is="Rate$0c88c2a0"></template></view></view> <view class="_div data-v-7e64660a detail">
+    {{info.publisher}}
+    <view class="_div data-v-7e64660a right">
+      {{info.price}}
+    </view></view> <view class="_div data-v-7e64660a tags"><view class="_div data-v-7e64660a badge" wx:key="tag" key="{{tag}}" wx:for="{{info.tags}}" wx:for-index="index" wx:for-item="tag">
+      {{tag}}
+    </view></view> <view class="_div data-v-7e64660a summary"><view wx:key="i" key="{{i}}" wx:for="{{info.summary}}" wx:for-index="i" wx:for-item="sum" class="_p data-v-7e64660a">{{sum}}</view></view></view></template>

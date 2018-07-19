@@ -1,0 +1,2 @@
+@import "/static/css/vendor.wxss";
+.swiper{margin-top:10rpx}.swiper .slide-image{width:33%;height:250rpx}
