@@ -1,6 +1,6 @@
 const CONF = {
       // 其他配置 ...
-    serverHost: 'https://www.xianengqi.com',
+    serverHost: '',
     tunnelServerUrl: '',
     tunnelSignatureKey: '',
   // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
